@@ -60,7 +60,7 @@ function MyForm() {
       ></textarea>
       <button
         type="submit"
-        className="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-semibold px-6 py-3 rounded-lg"
+        className="bg-orange-400 hover:bg-orange-500 text-amber-50 font-semibold px-6 py-3 rounded-lg"
       >
         Enviar
       </button>
