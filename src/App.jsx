@@ -13,6 +13,7 @@ function App() {
         statusMessage="Saúde & Seguros"
         chatMessage="Olá! 🤝 Como podemos ajudar?"
         placeholder="Digite uma mensagem..."
+        avatar="logo192.png"
       />
 
       <nav style={{ padding: "1rem", background: "#eee" }}>
