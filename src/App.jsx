@@ -8,9 +8,9 @@ function App() {
   return (
     <div>
       <FloatingWhatsApp
-        phoneNumber="1111111"
+        phoneNumber="+5521964903632"
         accountName="Radar"
-        statusMessage="Saúde & Seguros"
+        statusMessage="Saúde Seguros & Previdência"
         chatMessage="Olá! 🤝 Como podemos ajudar?"
         placeholder="Digite uma mensagem..."
         avatar="logo192.png"
