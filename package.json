@@ -20,6 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|ts|tsx)\"",
+    "check-format": "yarn prettier --list-different",
     "fix-format": "yarn prettier --write"
   },
   "eslintConfig": {
