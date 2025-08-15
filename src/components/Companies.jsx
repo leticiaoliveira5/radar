@@ -18,7 +18,7 @@ return (
     <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center align-middle text-3xl" title="Golden Cross">
       <GoldenSvg />
     </div>
-    <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center align-middle text-md">
+    <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center align-middle text-xl">
       ...entre outras!
     </div>
   </div>
