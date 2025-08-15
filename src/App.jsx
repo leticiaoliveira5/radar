@@ -18,7 +18,7 @@ function App() {
       />
 
       <nav style={{ padding: "1rem", background: "#eee" }}>
-        <Link to="/" style={{ marginRight: "1rem" }}><Logo /></Link>
+        <Link to="/" title="Página inicial" style={{ marginRight: "1rem" }}><Logo /></Link>
         <Link to="/sobre" style={{ marginRight: "1rem" }}>Sobre</Link>
         <Link to="/contato">Contato</Link>
       </nav>
