@@ -1,5 +1,6 @@
 import Form from '../components/Form';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 function HomePage() {
   return (
@@ -79,12 +80,7 @@ function HomePage() {
         <Form />
       </section>
       {/* Rodapé */}
-      <footer className="bg-gray-900 text-gray-300 py-6 text-center">
-        <p>
-          © {new Date().getFullYear()} RADAR CORRETAGEM DE SEGUROS E SAÚDE LTDA ME — Todos os
-          direitos reservados.
-        </p>
-      </footer>
+      <Footer />
     </div>
   );
 }
