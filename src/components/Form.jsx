@@ -6,16 +6,18 @@ function MyForm() {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
 
+  const formId = '1FAIpQLSfdZlpWTM7knG6N2601N3HKZsPis-RTc9pRDhayGYLiGq42qw';
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     const formData = new FormData();
-    formData.append("entry.123456789", name);
-    formData.append("entry.987654321", email);
-    formData.append("entry.987654321", phone);
-    formData.append("entry.987654321", message);
+    formData.append("entry.1086927678", name);
+    formData.append("entry.890504600", email);
+    formData.append("entry.1349704943", phone);
+    formData.append("entry.62044194", message);
 
-    await fetch("https://docs.google.com/forms/d/e/FORM_ID/formResponse", {
+    await fetch(`https://docs.google.com/forms/d/e/${formId}/formResponse`, {
       method: "POST",
       mode: "no-cors",
       body: formData
