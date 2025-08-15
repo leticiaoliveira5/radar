@@ -1,4 +1,5 @@
 import Form from '../components/Form';
+import Logo from '../components/Logo';
 
 function HomePage() {
   return (
@@ -8,6 +9,7 @@ function HomePage() {
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           Proteção e Tranquilidade para Você e Sua Família
         </h1>
+        <Logo />
         <p className="text-lg md:text-xl mb-6">
           Especialistas em planos de saúde e seguros sob medida para suas
           necessidades.
