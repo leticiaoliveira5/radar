@@ -14,7 +14,7 @@ function App() {
         statusMessage="Saúde Seguros & Previdência"
         chatMessage="Olá! 🤝 Como podemos ajudar?"
         placeholder="Digite uma mensagem..."
-        avatar="logo192.png"
+        avatar="logo_square_200.png"
       />
 
       <nav style={{ padding: "1rem", background: "#eee" }}>
