@@ -1,11 +1,13 @@
 import Form from '../components/Form';
-import Logo from '../components/Logo';
+import Header from '../components/Header';
 
 function HomePage() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
+      <Header />
+
       {/* Hero Section */}
-      <header className="bg-sky-700 text-white py-16 px-6 text-center">
+      <section className="bg-sky-700 text-white py-16 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           Proteção e Tranquilidade para Você e Sua Família
         </h1>
@@ -19,7 +21,7 @@ function HomePage() {
         >
           Solicite uma Cotação
         </a>
-      </header>
+      </section>
 
       {/* Serviços */}
       <section className="py-16 px-6 max-w-6xl mx-auto">
