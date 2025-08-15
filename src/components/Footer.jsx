@@ -1,5 +1,3 @@
-import Logo from '../components/Logo';
-
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 py-6 text-center">
@@ -13,7 +11,6 @@ const Footer = () => {
       </p>
     </footer>
   )
-
 };
 
 export default Footer;
