@@ -27,57 +27,57 @@ const SvgIcon = (props) => (
       <path
         id="path42"
         d="M513.6-108.8h34.8l52.3 69.5h-34.8l26 34.8h-43.5l-26-34.8h17.3l-26-34.8h26z"
-        className="st2"
+        fillRule="evernodd" clipRule="evernodd" fill="#fff"
       ></path>
     </g>
     <g id="g44" transform="translate(290.989 234.87)">
       <path
         id="path46"
         d="M513.6-108.8h-34.8l-52.3 69.5h34.8l-26 34.8h43.5l26-34.8h-17.5L513.6-74h-26z"
-        className="st2"
+        fillRule="evernodd" clipRule="evernodd" fill="#fff"
       ></path>
     </g>
     <g id="g48" transform="translate(142.253 233.272)">
       <path
         id="path50"
         d="M3.5-100.1h-37.1V-41c0 28.6 21.3 39.7 48.3 39.7 29.3 0 48.7-10.4 48.7-41.9v-57H26.9v57.7c0 9.5-2.1 16.1-11.8 16.1-9 0-11.6-6.8-11.6-16.1z"
-        className="st2"
+        fillRule="evernodd" clipRule="evernodd" fill="#fff"
       ></path>
     </g>
     <g id="g52" transform="translate(157.844 211.328)">
       <path
         id="path54"
         d="M56.9 19.1h35v-41.9c0-4 0-9.7 6.4-9.7 6.2 0 6.2 5.7 6.2 9.7v41.9h35v-50.4c0-14.2-6.9-23.9-25.6-23.9-9.9 0-19.4 4-23.6 14.2H90v-12.5H56.9z"
-        className="st2"
+        fillRule="evernodd" clipRule="evernodd" fill="#fff"
       ></path>
     </g>
     <path
       id="path56"
       d="M344.4 126.1h-35v24.1h35zm-35 104.3h35v-72.6h-35z"
-      className="st2"
+      fillRule="evernodd" clipRule="evernodd" fill="#fff"
     ></path>
     <g id="g58" transform="translate(189.714 211.328)">
       <path
         id="path60"
         d="M166.2 19.1h35v-41.9c0-4 0-9.7 6.4-9.7 5.9 0 5.9 5.7 5.9 9.7v41.9h35.2v-41.9c0-4 0-9.7 5.9-9.7 6.4 0 6.4 5.7 6.4 9.7v41.9h35v-43.5c0-14.2 0-30.8-25.5-30.8-8.8 0-20.8 4-23.2 12.5h-.2c-2.9-8.8-13-12.5-22.7-12.5-11.1 0-20.6 4-24.8 14.2h-.2v-12.5h-33.1v72.6z"
-        className="st2"
+        fillRule="evernodd" clipRule="evernodd" fill="#fff"
       ></path>
     </g>
     <g id="g62" transform="translate(239.31 217.628)">
       <path
         id="path64"
         d="M336.3-15.1v-4.3c0-24.6-9.9-42.1-38.1-42.1-29.3 0-44.9 12.3-44.9 36.6 0 25.1 15.6 39.3 44.9 39.3 12.3 0 23.4-1.4 32.6-4.3V-8.5C325.4-5.7 316.7-4 307.2-4c-10.4 0-18.7-2.1-19.4-11.1zm-48.5-15.4c-.5-5.7 1.2-14.2 9.5-14.2 7.8 0 8.7 8.7 8.7 14.2z"
-        className="st2"
+        fillRule="evernodd" clipRule="evernodd" fill="#fff"
       ></path>
     </g>
     <g id="g66" transform="translate(253.158 219.602)">
       <path
         id="path68"
         d="M383.8-25.9c0 6.8-1.2 14.9-8.5 14.9-7.8 0-9-8-9-15.6s1.2-15.1 8.5-15.1c7.9 0 9 7.6 9 15.8m34.1 36.7V-93.5h-35v41.1h-.3c-5.4-7.8-12.5-11.1-22-11.1-21.8 0-30.7 17.2-30.7 36.9 0 20.8 8.5 39 31.9 39 11.3 0 18.4-4 23.2-14.9h.2v13.3z"
-        className="st2"
+        fillRule="evernodd" clipRule="evernodd" fill="#fff"
       ></path>
     </g>
-    <path id="path70" d="M700.1 108.7h-5.8v139.1h5.8z" className="st2"></path>
+    <path id="path70" d="M700.1 108.7h-5.8v139.1h5.8z" fillRule="evernodd" clipRule="evernodd" fill="#fff"></path>
   </svg>
 );
 
