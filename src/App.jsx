@@ -1,8 +1,9 @@
 import { Routes, Route, Link } from "react-router-dom";
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
 import HomePage from "./pages/HomePage";
 import SobrePage from "./pages/AboutPage";
 import ContatoPage from "./pages/ContactPage";
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
+import Logo from "./components/Logo";
 
 function App() {
   return (
@@ -13,11 +14,11 @@ function App() {
         statusMessage="Saúde Seguros & Previdência"
         chatMessage="Olá! 🤝 Como podemos ajudar?"
         placeholder="Digite uma mensagem..."
-        avatar="logo192.png"
+        avatar="logo_square_200.png"
       />
 
-      <nav style={{ padding: "1rem", background: "#eee" }}>
-        <Link to="/" style={{ marginRight: "1rem" }}>Home</Link>
+      <nav className="text-xl p-3 bg-gray-100">
+        <Link to="/" title="Página inicial" style={{ marginRight: "1rem" }}><Logo /></Link>
         <Link to="/sobre" style={{ marginRight: "1rem" }}>Sobre</Link>
         <Link to="/contato">Contato</Link>
       </nav>
