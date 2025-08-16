@@ -38,7 +38,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="bg-gray-100 py-16 px-6">
+      <section className="bg-gray-100 pt-16 pb-20 px-6">
         <div className='max-w-6xl mx-auto'>
           <h2 className="text-3xl font-bold text-center mb-10">
             Operadoras
