@@ -3,7 +3,7 @@ import A from '../icons/A';
 import D from '../icons/D'
 
 const Logo = ({color}) => {
-  const rColor = color || "#035682";
+  const rColor = color || "#004e79";
   const aColor = color || "#035682";
   const dColor = color || "#fb6a02";
 
