@@ -17,7 +17,7 @@ function App() {
         avatar="logo_square_200.png"
       />
 
-      <nav style={{ padding: "1rem", background: "#eee" }}>
+      <nav className="text-xl p-3 bg-gray-100">
         <Link to="/" title="Página inicial" style={{ marginRight: "1rem" }}><Logo /></Link>
         <Link to="/sobre" style={{ marginRight: "1rem" }}>Sobre</Link>
         <Link to="/contato">Contato</Link>
